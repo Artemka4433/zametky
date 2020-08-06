@@ -1,0 +1,56 @@
+
+div {
+    margin-bottom: 15px;
+    padding: 4px 12px;
+}
+
+
+.info {
+    background-color: #e7f3fe;
+    border-left: 6px solid #2196F3;
+    animation-name: animationAddNotice;
+    animation-duration: 3s;
+}
+
+@keyframes animationAddNotice {
+    0% {
+        width: 50px;
+        margin-top: -500px;
+    }
+    15% {
+        border-radius: 0px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    30%{
+        border-radius: 0px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    45%{
+        border-radius: 0px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    60%{
+        border-radius: 0px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    75%{
+        border-radius: 0px;
+        width: 50px;
+        margin-top: 0px;
+    }
+    90% {
+        width: 130px;
+        margin-top: -50px;
+        border-radius: 30px;
+    }
+    100% {
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+}
+
